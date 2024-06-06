@@ -1,7 +1,7 @@
 public class RewardValue {
     private final double cashValue;
     private final double milesValue;
-    private static final double CONVERSION_RATE = 0.0035; // Constant for better readability
+    public static final double CONVERSION_RATE = 0.0035;
 
     public RewardValue(double value) {
         this(value, true); // Delegate to single constructor with flag
